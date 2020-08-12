@@ -18,7 +18,7 @@ cur_dir = os.getcwd()
 # 에러 출력
 sys.stdout = sys.stderr
 # 출력을 현재 디렉토리로 추가
-sys.path.inesert(0, cur_dir)
+sys.path.insert(0, cur_dir)
 # 아파치 서버에서 표준 출력과 에러 출력의 방향을 설정하기 위한 세팅
 
 # 서버 가동
